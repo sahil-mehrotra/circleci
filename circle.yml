@@ -6,4 +6,5 @@ test:
   override:
     - sh run_test.sh
   post:
+    - coverage run calculator_test.py
     - coverage html

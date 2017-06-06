@@ -14,3 +14,6 @@ class CalculatorTest(unittest.TestCase):
 
     def test_two_subtract_three_equals_one(self):
         self.assertEquals(-1, self.calculator.subtract(2, 3))
+
+if __name__ == "__main__":
+    unittest.main()

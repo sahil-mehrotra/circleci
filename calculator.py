@@ -5,4 +5,4 @@ class Calculator(object):
         return number1 + number2
 
     def subtract(self, param_one, param_two):
-        return param_one - param_two
+        return param_one +gir param_two

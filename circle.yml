@@ -5,3 +5,5 @@ machine:
 test:
   override:
     - sh run_test.sh
+  post:
+    - coverage html

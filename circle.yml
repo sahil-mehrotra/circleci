@@ -3,4 +3,5 @@ machine:
     version: 3.6.1
 
 test:
-  - run_test.sh
+  override:
+    - ./run_test.sh

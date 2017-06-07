@@ -1,10 +1,9 @@
 import unittest
-from calculator import Calculator
-
+from src import calculator
 
 class CalculatorTest(unittest.TestCase):
     def setUp(self):
-        self.calculator = Calculator()
+        self.calculator = calculator.Calculator()
 
     def test_two_plus_three_equals_five(self):
         self.assertEquals(5, self.calculator.add(2, 3))

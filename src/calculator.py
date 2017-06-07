@@ -1,3 +1,4 @@
+
 import logging
 logging.basicConfig(filename='testLogging.log',level=logging.DEBUG)
 logging.debug('This message should go to the log file')

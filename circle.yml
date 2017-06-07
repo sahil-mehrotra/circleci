@@ -3,8 +3,6 @@ machine:
     version: 3.6.1
 
 test:
-  override:
-    - sh run_test.sh
   post:
-    - coverage run calculator_test.py
+    - coverage run -m unittest discover -p *_test.py
     - coverage report

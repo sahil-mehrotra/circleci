@@ -5,7 +5,7 @@ jobs:
           path: /htmlcov
 machine:
   python:
-    version: 3.6.1
+    version: 3.5.0
 
 test:
   override:
